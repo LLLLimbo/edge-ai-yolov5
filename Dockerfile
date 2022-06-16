@@ -13,4 +13,4 @@ RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache -r requir
 
 #ENV OMP_NUM_THREADS=8
 
-RUN python server.py
+CMD ["python /edge-ai-yolov5/server.py"]
