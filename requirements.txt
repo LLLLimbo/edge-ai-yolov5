@@ -40,3 +40,6 @@ nats-py>=2.1.0
 uvicorn>=0.17.6
 oss2>=2.15.0
 websockets>=10.3
+rtsp>=1.1.12
+minio>=7.1.9
+hazelcast-python-client>=5.1
