@@ -13,4 +13,4 @@ RUN pip install --no-cache -r requirements.txt
 
 #ENV OMP_NUM_THREADS=8
 
-CMD ["python /edge-ai-yolov5/server.py"]
+CMD ["python","/edge-ai-yolov5/server.py"]
